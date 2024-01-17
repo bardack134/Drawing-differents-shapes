@@ -17,22 +17,6 @@ def square(my_turtle):
         my_turtle.forward(100)
         
               
-#funcion para dibujar una linea discontinua    
-def dashed_line(my_turtle):
-    
-    for i in range(10):
-        #mviendo hacia el frente 10 piezas 
-        my_turtle.forward(10)
-
-        #metodo para levantar el mause
-        my_turtle.penup()
-        
-        #copn el mause levantado lo mnovemos  hacia el frente 10 piezas 
-        my_turtle.forward(10)
-        
-        #metodo para bajar el mause
-        my_turtle.pendown()
-
 
 # Esta función cambia el color de una tortuga de forma aleatoria
 def change_color(my_turtle):
